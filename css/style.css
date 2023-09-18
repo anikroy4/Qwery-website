@@ -11,9 +11,11 @@ a{
 }
 
 
+
 ul{
     list-style: none;
 }
+
 
 img{
     display: block;
@@ -24,6 +26,7 @@ img{
 max-width: 1320px;
 margin: 0 auto;
 }
+
 
 nav{
     
@@ -61,21 +64,29 @@ nav .container .menu ul li a{
     line-height: normal;
     text-transform: capitalize;
 }
+
+
+
 nav .container .menu ul li a:hover{
    color: black;
 }
+
+
+
 /* ============================================ */
 /* ============================================ */
 /* ============================================ */
 
 #banner_part{
     padding: 462px 0;
-    background: url("./images/banner.jpg") ;
+    background: url("../images/banner.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
+
+
+
 #banner_part p{
     margin-bottom: 37.74px;
     color: #FFC178;
@@ -86,7 +97,6 @@ nav .container .menu ul li a:hover{
     line-height: normal;
     letter-spacing: 7px;
     text-transform: uppercase;
-
 }
 
 
@@ -98,7 +108,9 @@ nav .container .menu ul li a:hover{
     font-weight: 700;
     line-height: 100px;
     text-transform: capitalize;
-    }
+}
+
+
 
 #banner_part h2{
     color: #FFF;
@@ -125,6 +137,7 @@ nav .container .menu ul li a:hover{
     column-gap: 24px;
 }
 
+
  
 #about_part .container .left{
     width: 50%;
@@ -134,6 +147,7 @@ nav .container .menu ul li a:hover{
 #about_part .container .left img{
     width: 100%;
 }
+
 
 
 #about_part .container .right{
@@ -155,6 +169,7 @@ nav .container .menu ul li a:hover{
 }
 
 
+
 #about_part .container .right h2{
     color: #FFF;
     font-family: Open Sans;
@@ -166,6 +181,7 @@ nav .container .menu ul li a:hover{
     margin: 13px 0;
     width: 496px;
 }
+
 
 
 #about_part .container .right .about_details {
@@ -180,6 +196,7 @@ nav .container .menu ul li a:hover{
 }
 
 
+
 #about_part .container .right a{
     color: #FBD784;
     font-family: Open Sans;
@@ -189,6 +206,8 @@ nav .container .menu ul li a:hover{
     line-height: normal;
     text-transform: uppercase;
 }
+
+
 
 /* ============================================ */
 /* ============================================ */
@@ -202,7 +221,7 @@ nav .container .menu ul li a:hover{
 
 
 #bromo .container{
-    background: url(images/Bromo.jpg);
+    background: url(../images/Bromo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -274,10 +293,12 @@ nav .container .menu ul li a:hover{
 }
 
 
+
 #culture_part .container{
     display: flex;
     column-gap: 24px;
 }
+
 
 
 #culture_part .container .left{
@@ -295,9 +316,12 @@ nav .container .menu ul li a:hover{
 }
 
 
+
 #culture_part .container .right img{
     width: 100%;
 }
+
+
 
 #culture_part  .container  .left  .culture_title {
     color: #FBD784;
@@ -308,7 +332,8 @@ nav .container .menu ul li a:hover{
     line-height: normal;
     letter-spacing: 6px;
     text-transform: uppercase;
-    }
+}
+
 
 
 #culture_part .container .left h2{
@@ -322,6 +347,8 @@ nav .container .menu ul li a:hover{
     margin: 19px 0;
 }
 
+
+
 #culture_part .container .left .culture_details{
     color: #FFF;
     font-family: Open Sans;
@@ -333,6 +360,7 @@ nav .container .menu ul li a:hover{
 }
 
 
+
 #culture_part .container .left a{
     color: #FBD784;
     font-family: Open Sans;
@@ -341,9 +369,9 @@ nav .container .menu ul li a:hover{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin: 47px 0;
-    
+    margin: 47px 0; 
 }
+
 
 
 /* ============================================ */
@@ -353,6 +381,9 @@ footer{
     background: rgb(0, 0, 0);
     padding: 190px 0  0 0;
 }
+
+
+
 footer .container {
     
     display: flex;
@@ -363,6 +394,7 @@ footer .container {
 footer .left{
     width: 50%;
 }
+
 
 footer .left h2{
     color: #FFF;
@@ -377,6 +409,8 @@ footer .left h2{
     width: 400px;
    
 }
+
+
 footer .left a{
     color: #FFF;
     font-family: Open Sans;
@@ -388,13 +422,14 @@ footer .left a{
     text-transform: capitalize;
     padding: 0 0 34px ;
 }
+
+
 footer .left .icon a{
 
     font-size: 30px;
     display: inline-block;
     margin-right: 1em;
 }
-
 
 
 footer .right{
@@ -419,6 +454,8 @@ footer .right .get_started .ready{
     margin-right: 18px;
 }
 
+
+
 footer .right .get_started .started{
     color: #000;
     font-family: Open Sans;
@@ -434,19 +471,22 @@ footer .right .get_started .started{
 }
 
 
-
 footer .right .main{
     display: flex;
 }
+
+
 footer .right .main .list_item a{
-        color: #FFF;
+    color: #FFF;
     font-family: Open Sans;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: auto; /* 0% */
     text-transform: capitalize;
-    }
+}
+
+
 
 footer .right .main .list_item h3{
     color: #FFD1A0;
@@ -464,6 +504,8 @@ footer .right .main .list_item h3{
 footer .right .main .footer_about{
     margin: 0 139px  0 48px;
 }
+
+
 
 footer p{
     color: #FFF;
